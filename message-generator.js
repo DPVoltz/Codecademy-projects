@@ -47,6 +47,6 @@ const part3Messages = [
 
         const randomMessage = `${part1} ${part2} ${part3}`;
 
-        messageDisplay.textContent = randomMessage;
-        return randomMessage;
     }
+const message = generateRandomMessage();
+console.log(message);
