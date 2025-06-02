@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile Page</title>
+    <meta name="viewport" content="width=device-with, initial scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aubrey">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="navbar">
+        <a class="nav-link" href="#welcome-section">Welcome</a>
+        <a class="nav-link" href="#about-me">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+      <section class="welcome" id="welcome-section">
+        <div class="page-title">
+      <h1 class="h1">CascadeCode</h1>
+      <p class="presents">presents</p>
+      <h1 class="personal">My Personal Portfolio</h1>
+        </div>
+      </section>
+    <div class="divider"></div>
+     <!--about me section-->
+        <section id="about-me" class="about-me">
+          <div class="my-text">
+          <p class="p5">About Me</p>
+          <p>My name is David, I am a self taught website developer. I have been doing this for the past five months using FreeCodeCamp</p>
+            <p>I have recently completed the HTML and CSS beginners course they offer</p>
+            <p>I have been working in the IT field for three years. I started as a first line service desk analyst and I am now in a second line role.</p>
+            <p>I decided to start development as this is what I see when talking about computing and coding</p>
+            <p>There are some sample projects that I have completed below for you to look at<p>
+              <p>I am available for freelance and full-time work. I am passionate about what I am doing and I am constantly learning more</p> 
+          </div></section>
+            <div class="divider"></div>
+      <!--project section-->
+    <h3 class="projects-title">Completed Projects</h3>
+    <section id="projects">      
+  <div class="project-container">
+    <div class="project-item">
+      <a target="_blank" href="https://codepen.io/DPVoltz/full/raNKOmB">
+        <p class="project-title">Tribute Page</p>
+        <img src="https://res.cloudinary.com/dyjc3l5og/image/upload/v1742682279/tribute_sskfht.png" class="project-tile">
+      </a>
+    </div>
+    <div class="project-item">
+      <a target="_blank" href="https://codepen.io/DPVoltz/full/NPKVdxR">
+        <p class="project-title">Technical Document</p>
+        <img src="https://res.cloudinary.com/dyjc3l5og/image/upload/v1742681249/tech_doc_k7zaa2.png" class="project-tile">
+      </a>
+    </div>
+
+    <div class="project-item">
+      <a target="_blank" href="https://codepen.io/DPVoltz/full/xbxWbRa">
+        <p class="project-title">Magazine</p>
+        <img src="https://res.cloudinary.com/dyjc3l5og/image/upload/v1742681707/Magazine_llycpi.png" class="project-tile">
+      </a>
+    </div>
+    <div class="project-item">
+      <a target="_blank" href="https://codepen.io/DPVoltz/full/mydNxGR">
+        <p class="project-title">Text based RPG game</p>
+        <img src="https://res.cloudinary.com/dyjc3l5og/image/upload/v1745184780/image_2025-04-20_223258479_mpjgm1.png" class="project-tile">
+      </a>
+    </div>
+  </div>
+</section>
+            <div class="divider"></div>
+       <!--form-->
+        <div class="contact" id="contact">
+          <p>You can contact me here via email:</p>
+          <p>david.pack@cascade-code.co.uk</p>
+        </div>
+        
+        <!--links-->
+                  <div class="social-links" id="contact">
+                    <a href="https://www.freecodecamp.org/DPVoltz" target="_blank" id="profile-link">
+              
+              <span class="FCC">FreeCodeCamp</span></a>
+        </div>
+                    <div class="footer">
+                    <footer>All rights reserved. &copy;2025</footer>
+        </div>
+          </body>
+            </html>
