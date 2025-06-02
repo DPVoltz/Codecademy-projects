@@ -83,5 +83,6 @@
                     <div class="footer">
                     <footer>All rights reserved. &copy;2025</footer>
         </div>
-          </body>
-            </html>
+          <script src="scroll.js"></script>
+    </body>
+</html>
